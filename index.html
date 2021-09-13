@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500&display=swap" rel="stylesheet">
-    <title>Beauty Studio</title>
+    <script src="https://kit.fontawesome.com/82cb13e596.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <div class="content">
+        <nav>
             <div class="logo">
-                <img src="images/logo.png" alt="">
+                <img src="images/logo.png">
             </div>
-            <nav>
+            <div class="menu">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Nuestros Servicios</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#">Servicios</a></li>
+                    <li> <a href="#">Contacto</a></li>
+                    <li> <a href="#">Ingresar</a></li>
                 </ul>
-            </nav>
-        </div>
-        <h1>Beauty Studio</h1>
-        <div class="btn">
-            <span> <a href="">PEDÍ TU TURNO </a></span>
+            </div>
+        </nav>
+        <div class="contenedor-titulo">
+            <div class="titulo">
+                <h1>Beauty Salon</h1>
+            </div>
+
+            <div class="btn">
+                <span> <a href="">PEDÍ TU TURNO </a></span>
+            </div>
         </div>
     </header>
-    <section>
-        <div class="servicios">
-            <div class="flor">
-                <img src="images/flores.png" alt="flores">
-            </div>
+    <section class="num1">
+        <div class="logo-section">
+            <img src="images/flores3.png" alt="flores">
             <h2>Nuestros Servicios</h2>
-            <div class="precios">
-                <ul class="service">
-                    <li>Lista de precios</li> <br><br>
+        </div>
+    </section>
+    <section class="num2">
+        <div class="precios">
+            <div class="lista-nombres">
+                <ul>
+                    <li class="titulo-precios">Lista de precios</li> <br><br>
                     <li>Esmaltado Semi permanente</li> <br>
                     <li>Lifting de pestañas</li><br>
                     <li>Perfilado de cejas</li><br>
@@ -47,8 +53,10 @@
                     <li>Corte de cabello</li><br>
                     <li>Alisado premium</li>
                 </ul>
-                <ul class="desde">
-                    <li> Desde: </li> <br><br>
+            </div>
+            <div class="lista-precios">
+                <ul>
+                    <li class="titulo-precios"> Desde: </li> <br><br>
                     <li>$600</li> <br>
                     <li>$600</li><br>
                     <li>$600</li><br>
@@ -57,12 +65,63 @@
                     <li>$600</li>
                 </ul>
             </div>
-    
-   
+        </div>
     </section>
-    
-   
-    <script src="main.js"></script>
+
+    <div class="container">
+
+        <ul class="slider">
+            <li id="slide1">
+                <img src="images/nails.jpg" />
+            </li>
+            <li id="slide2">
+                <img src="images/nails2.jpg" />
+            </li>
+            <li id="slide3">
+                <img src="images/lashing.jpg" />
+            </li>
+        </ul>
+
+        <ul class="menu-carrucel">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <section class="contacto">
+        <div class="logo-contacto">
+            <img src="images/flores3.png" alt="flores">
+            <h2>Contacto</h2>
+        </div>
+    </section>
+    <footer>
+        <h3>Visitanos!</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.72924930004!2d-58.4385250449727!3d-34.573396763130276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1631507512576!5m2!1ses-419!2sar" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="datos">    
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> </li><br>
+                <li><i class="far fa-envelope"></i></li><br>
+                <li><i class="fab fa-whatsapp"></i></li><br>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+            <ul>
+                <li> Lorem iptsum</li><br>
+                <li>Salón@gmail.com</li><br>
+                <li>152345689</li><br>
+                <li>/SalónBelleza</li>
+            </ul>
+        </div>        
+        <br><br><br><br><br>
+        <h5>@Derechos reservados, Milena Viera</h5>
+    </footer>
 </body>
 
 </html>
