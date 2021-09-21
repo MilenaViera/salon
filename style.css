@@ -303,7 +303,7 @@ footer li{
 }
 
 
-/*
+
 :root {
     --login-bg:#f8f3ff;
     --title-bg: #070707;
@@ -312,8 +312,11 @@ footer li{
     --image-bg:  #eadbff ;
 }
 
-body .pag2 {
+body.pag2 {
     background-image:url('images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .login-container {
@@ -397,7 +400,7 @@ body .pag2 {
     align-items: center;
 }
 
-.input, .btn {
+.input, .btn2 {
     width: 90%;
     height: 3.125rem;
     font-size: 1em;
@@ -416,7 +419,7 @@ body .pag2 {
     border: 2px solid var(--button-bg);
 }
 
-.btn {
+.btn2  {
     width: 80%;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -473,4 +476,3 @@ body .pag2 {
         margin: 0;
     }
 }
-*/
